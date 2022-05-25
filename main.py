@@ -1,4 +1,3 @@
-# Подсчитать сумму цифр в вещественном числе.
 number = str(input('Задайте первую строку: '))
 count_of_symbols = abs(number.find('.') - len(number)) - 1
 number = float(number)
