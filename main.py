@@ -1,4 +1,4 @@
-number = str(input('Задайте первую строку: '))
+number = str(input('Ввеите число: '))
 count_of_symbols = abs(number.find('.') - len(number)) - 1
 number = float(number)
 number *= 10**count_of_symbols
